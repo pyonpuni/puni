@@ -28,12 +28,12 @@ client.on('ready', async () => {
     .setURL('https://twitch.tv/developer') //Must be a youtube video link 
     .setState('𝗐𝖾 𝗱𝗼𝗻𝘁 𝗐𝖺𝗇𝗍 𝗍𝗈 𝗺𝗮𝗸𝗲')
     .setName('maso')
-    .setDetails(`།𓎟𓎟†𓎟𓎟།`)
+    .setDetails(`།𓎟𓎟𓎟†𓎟𓎟𓎟།`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://media.discordapp.net/attachments/1011444419838353429/1201105598197014578/Untitled585_20240128034024_4.gif?ex=65c89bc2&is=65b626c2&hm=8e58f8dcfeca436ae2e1fd00b79ad986d2a725fbc91aa84f011a869e842efc93&') //You can put links in tenor or discord and etc.
 .setAssetsSmallImage('https://media.discordapp.net/attachments/1011444419838353429/1201105598742286346/IMG_6142.gif?ex=65c89bc2&is=65b626c2&hm=55b6fdf15897811a605be18a93325085bb25144fd55c4b7692835964c82ebb18&')
     .setAssetsLargeText('✚ ₊  𝘁𝗵𝗲 𝖼𝗁𝗂𝗅𝖽𝗋𝖾𝗇 𝗰𝗿𝘆...') //Text when you hover the Large image
-    .addButton('♡', 'https://rentry.co/pien')
+    .addButton('♥', 'https://rentry.co/arle')
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
@@ -42,7 +42,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `།𓎟𓎟†𓎟𓎟།`;
+      const newDetails = `།𓎟𓎟𓎟†𓎟𓎟𓎟།`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
