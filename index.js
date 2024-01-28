@@ -26,13 +26,13 @@ client.on('ready', async () => {
     .setApplicationId('1170948236769493052')
     .setType('STREAMING')
     .setURL('https://twitch.tv/developer') //Must be a youtube video link 
-    .setState('永遠愛在一起')
+    .setState('𝗐𝖾 𝗱𝗼𝗻𝘁 𝗐𝖺𝗇𝗍 𝗍𝗈 𝗺𝗮𝗸𝗲')
     .setName('maso')
     .setDetails(`།𓎟𓎟†𓎟𓎟།`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1011444419838353429/1199368605565992980/Untitled574_20240123085905.png?ex=65c24a0e&is=65afd50e&hm=e3797548a81577836a18193dd0fc8f6bcf5a1b5b524666fa4c7b694b1e404f82&') //You can put links in tenor or discord and etc.
-.setAssetsSmallImage('https://media.discordapp.net/attachments/1011444419838353429/1199368606010572980/Untitled550_20240123085831.png?ex=65c24a0e&is=65afd50e&hm=4671c01048c29c88c30a7164c72b467101ab909391953474ca817a60407e2684&')
-    .setAssetsLargeText('在一起真好') //Text when you hover the Large image
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1011444419838353429/1201105598197014578/Untitled585_20240128034024_4.gif?ex=65c89bc2&is=65b626c2&hm=8e58f8dcfeca436ae2e1fd00b79ad986d2a725fbc91aa84f011a869e842efc93&') //You can put links in tenor or discord and etc.
+.setAssetsSmallImage('https://media.discordapp.net/attachments/1011444419838353429/1201105598742286346/IMG_6142.gif?ex=65c89bc2&is=65b626c2&hm=55b6fdf15897811a605be18a93325085bb25144fd55c4b7692835964c82ebb18&')
+    .setAssetsLargeText('✚ ₊  𝘁𝗵𝗲 𝖼𝗁𝗂𝗅𝖽𝗋𝖾𝗇 𝗰𝗿𝘆...') //Text when you hover the Large image
     .addButton('♡', 'https://rentry.co/pien')
 
   client.user.setActivity(r);
