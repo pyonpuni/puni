@@ -26,14 +26,14 @@ client.on('ready', async () => {
     .setApplicationId('1170948236769493052')
     .setType('STREAMING')
     .setURL('https://twitch.tv/developer') //Must be a youtube video link 
-    .setState('𝗂 𝘄𝗮𝗻𝗻𝗮 𝖻𝖾 𝗍𝗁𝖾 𝗺𝗲𝘀𝘀𝗶𝗮𝗵')
+    .setState('𝖺𝗅𝗅𝗈𝗐 𝗺𝗲 𝗍𝗈 𝗆𝖺𝗄𝖾 𝘆𝗼𝘂 𝖺𝗇')
     .setName('maso')
-    .setDetails(`⟡ 𝘄𝗵𝗶𝘁𝗲 𝗮𝗻𝗴𝗲𝗹`)
+    .setDetails(`⟡ 𝘄𝗵𝗶𝗺𝘀 𝗼𝗳 𝗳𝗮𝘁𝗲`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1011444419838353429/1203281933161857034/Untitled601_20240203030253_3.gif?ex=65d086a0&is=65be11a0&hm=80e57a2073fd2507ebd013e366c5190b1f4c26e05625a49c1f0e93345a146f67&') //You can put links in tenor or discord and etc.
-.setAssetsSmallImage('https://media.discordapp.net/attachments/1011444419838353429/1203281933623099393/IMG_6535.gif?ex=65d086a0&is=65be11a0&hm=7dd666173ca91f656dd659a40d5177fb71df5027341816b3ed1d1702613819b3&')
-    .setAssetsLargeText('𝗍𝗁𝖾 𝗼𝗻𝗲 𝗐𝗁𝗈 𝗻𝗲𝘃𝗲𝗿 𝖽𝗂𝖾𝗌') //Text when you hover the Large image
-    .addButton('†', 'https://rentry.co/aspdgojo')
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1011444419838353429/1205194511916073050/Untitled602_20240208093910_1.gif?ex=65d77bdb&is=65c506db&hm=524e75614699a5ca03aa0a4e4321b20fbee9ae09c9bbd8add0ed9a5e63226f78&') //You can put links in tenor or discord and etc.
+.setAssetsSmallImage('https://media.discordapp.net/attachments/1011444419838353429/1205194511555493928/blur_edges_319.png?ex=65d77bda&is=65c506da&hm=c57699a42a1264c64a6feb14cceefd3442150d2c369da13e63ec970f5bc9ab35&')
+    .setAssetsLargeText('𝗼𝗳𝗳𝗲𝗿. 𝗈𝗇𝖾 𝗒𝗈𝗎 𝗰𝗮𝗻𝘁 𝗋𝖾𝖿𝗎𝗌𝖾') //Text when you hover the Large image
+    .addButton('†', 'https://rentry.co/uso')
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
@@ -42,7 +42,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `⟡ 𝘁𝗿𝘂𝗲 𝘀𝗮𝘃𝗶𝗼𝘂𝗿`;
+      const newDetails = `⟡ 𝘄𝗵𝗶𝗺𝘀 𝗼𝗳 𝗳𝗮𝘁𝗲`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
